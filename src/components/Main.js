@@ -112,16 +112,40 @@ export default function Main() {
               className="next-test"
               onClick={() => setChooseTest(chooseTest + 1)}
             >
-              Go to JavaScript Test
+              Go to Test Information
             </button>
             <Quiz />
           </div>
         ) : (
           <div className="quiz-div">
-            <button className="next-test2" onClick={() => setChooseTest(1)}>
-              Go to HTML/CSS Test
+            <button className="next-test" onClick={() => setChooseTest(1)}>
+              Go to Test
             </button>
-            11111111111
+            <div className="test-information">
+              <h2 className="information">Test Information</h2>
+              <div className="text-information">
+                <Typography sx={{ color: 'white' }}>
+                  If you cannot answer the questions, then you need to register
+                  in a full course with us.
+                </Typography>
+                <br />
+                <Typography sx={{ color: 'white' }}>
+                  If you answered correctly less than 4 questions - you have a
+                  basic level, then you need to register in a full course with
+                  us
+                </Typography>
+                <br />
+                <Typography sx={{ color: 'white' }}>
+                  If you answered correctly less than 7 questions - you are
+                  average, then you need to register in a JS course with us
+                </Typography>
+                <br />
+                <Typography sx={{ color: 'white' }}>
+                  If you answered all the questions correctly, you have a high
+                  level, then you need to register in a React course with us
+                </Typography>
+              </div>
+            </div>
           </div>
         )}
       </div>

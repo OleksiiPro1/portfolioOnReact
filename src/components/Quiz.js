@@ -10,7 +10,7 @@ const Quiz = () => {
         <div className="results">
           <div className="congratulations">Congratulations</div>
           <div className="results-info">
-            <div>You have completed the quiz.</div>
+            <div>You have completed the test.</div>
             <div>
               You've got {quizState.correctAnswersCount} of{' '}
               {quizState.questions.length}
