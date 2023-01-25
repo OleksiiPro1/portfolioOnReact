@@ -1,16 +1,16 @@
 import { useContext } from 'react';
-import { QuizContext } from '../contexts/quiz';
-import Answer from './Answer';
+import { QuizContextB } from '../contexts/quizb';
+import AnswerB from './AnswerB';
 
 const Question = () => {
-  const [quizState, dispatch] = useContext(QuizContext);
+  const [quizState, dispatch] = useContext(QuizContextB);
   const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
   return (
     <div>
       <div className="question-b">{currentQuestion.question}</div>
       <div className="answers">
         {quizState.answers.map((answer, index) => (
-          <Answer
+          <AnswerB
             answerText={answer}
             key={index}
             index={index}

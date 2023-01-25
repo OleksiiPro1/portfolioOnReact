@@ -1,9 +1,9 @@
 import { useContext, useEffect } from 'react';
-import { QuizContext } from '../contexts/quiz';
+import { QuizContextB } from '../contexts/quizb';
 import QuestionB from './QuestionB';
 
 const Quizb = () => {
-  const [quizState, dispatch] = useContext(QuizContext);
+  const [quizState, dispatch] = useContext(QuizContextB);
   const apiUrl =
     'https://opentdb.com/api.php?amount=8&type=multiple&encode=url3986';
 
@@ -50,7 +50,7 @@ const Quizb = () => {
             </div>
             <QuestionB />
             <div
-              className="next-button"
+              className="next-button-b"
               onClick={() => dispatch({ type: 'NEXT_QUESTION' })}
             >
               Next question

@@ -11,15 +11,15 @@ const headerLogoStyles = css`
 `;
 const headerStyles = css`
   padding-top: 10px;
-  /* padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px; */
-
-  background: black;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: linear-gradient(rgba(128, 0, 128, 0.7), transparent);
+  background-color: #000;
   display: flex;
   justify-content: space-between;
 
-  min-width: 100%;
+  /* width: 100%; */
   z-index: 50;
   > div > a {
     text-decoration: none;
@@ -29,26 +29,18 @@ const headerStyles = css`
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* @media screen and( max-width: 768px) {
-    justify-content: space-around;
-    .menu {
-      display: none;
-    }
-  } */
 `;
 
 export default function Header(props) {
   return (
     <header css={headerStyles}>
       <div css={headerLogoStyles}>
-        <a href="/">English</a>
+        <a href="/">REACT</a>
       </div>
 
       <div className="menu">
-        <a href="/courses/1">HTML</a>
-        <a href="/courses/2">CSS</a>
-        <a href="/courses/3">JS</a>
-        <a href="/courses/4">REACT </a>
+        <a href="/">Courses</a>
+        <a href="/">Tests</a>
       </div>
     </header>
   );

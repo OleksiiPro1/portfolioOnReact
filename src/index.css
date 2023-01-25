@@ -8,7 +8,7 @@ div {
 }
 
 .question {
-  background-color: #0094da;
+  background-color: #800080;
   color: white;
   padding: 10px;
   min-height: 60px;
@@ -19,7 +19,7 @@ div {
 }
 
 .question-b {
-  background-color: #2f970f;
+  background-color: #000;
   color: white;
   padding: 10px;
   min-height: 60px;
@@ -36,7 +36,8 @@ div {
 }
 
 .congratulations {
-  background-color: #0094da;
+  margin-top: 80px;
+  background-color: #800080;
   padding: 20px;
   font-size: 36px;
   color: #fff;
@@ -51,7 +52,16 @@ div {
 .answer {
   width: 48%;
   background: #fff;
-  border: 2px solid #0094da;
+  border: 2px solid #800080;
+  min-height: 70px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: flex;
+}
+.answer-b {
+  width: 48%;
+  background: #fff;
+  border: 2px solid #000;
   min-height: 70px;
   cursor: pointer;
   margin-bottom: 30px;
@@ -67,7 +77,16 @@ div {
 
 .answer-letter {
   font-size: 30px;
-  background-color: #0084da;
+  background-color: #800080;
+  color: #fff;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.answer-letter-b {
+  font-size: 30px;
+  background-color: #000;
   color: #fff;
   width: 70px;
   display: flex;
@@ -101,7 +120,19 @@ div {
 .next-button {
   margin: 0 auto;
   color: #fff;
-  background: #0b0e21;
+  background: #800080;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 75px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+.next-button-b {
+  margin: 0 auto;
+  color: #fff;
+  background: #000;
   width: 300px;
   font-size: 18px;
   font-weight: 600;
@@ -136,7 +167,7 @@ div {
 
 .main-div {
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .h1-div {
@@ -145,9 +176,69 @@ div {
   position: absolute;
   font-size: 8vw;
   z-index: 1000;
-
   color: #fff;
 }
 .h1 {
-  font-size: 80%;
+  font-size: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.h2 {
+  font-size: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.test {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+}
+.table {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(rgba(128, 0, 128, 0.6), transparent);
+  background-color: #000; /*this your primary color*/
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.next-test {
+  margin: 0 auto;
+  color: #fff;
+  background: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 75px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+.teacher {
+  margin-top: 100px;
+
+  color: #fff;
+  background: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1px;
+}
+.next-test2 {
+  margin: 0 auto;
+  color: #fff;
+  background: #800080;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 75px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
 }

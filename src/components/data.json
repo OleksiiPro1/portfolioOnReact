@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "day_of_the_week": "Su",
+    "teacher": "Tobias",
+    "time": "12:00 - 16:00",
+    "course": "JS"
+  },
+  {
+    "id": 2,
+    "day_of_the_week": "Mo",
+    "teacher": "Max",
+    "time": "16:00 - 19:00",
+    "course": "React"
+  },
+  {
+    "id": 3,
+    "day_of_the_week": "Tu",
+    "teacher": "Oleksii",
+    "time": "16:00 - 19:00",
+    "course": "HTML/CSS"
+  },
+  {
+    "id": 4,
+    "day_of_the_week": "We",
+    "teacher": "Max",
+    "time": "16:00 - 19:00",
+    "course": "React"
+  },
+  {
+    "id": 5,
+    "day_of_the_week": "Th",
+    "teacher": "Oleksii",
+    "time": "16:00 - 19:00",
+    "course": "HTML/CSS"
+  },
+  {
+    "id": 6,
+    "day_of_the_week": "Fr",
+    "teacher": "Max",
+    "time": "16:00 - 19:00",
+    "course": "React"
+  },
+  {
+    "id": 7,
+    "day_of_the_week": "Sa",
+    "teacher": "Polina",
+    "time": "12:00 - 16:00",
+    "course": "Figma"
+  }
+]

@@ -14,10 +14,10 @@ const Answer = ({
   const disabledClass = currentAnswer ? 'disabled-answer' : '';
   return (
     <div
-      className={`answer ${correctAnswerClass} ${wrongAnswerClass} ${disabledClass}`}
+      className={`answer-b ${correctAnswerClass} ${wrongAnswerClass} ${disabledClass}`}
       onClick={() => onSelectAnswer(answerText)}
     >
-      <div className="answer-letter">{letterMapping[index]}</div>
+      <div className="answer-letter-b">{letterMapping[index]}</div>
       <div className="answer-text">{answerText}</div>
     </div>
   );
