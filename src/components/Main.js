@@ -11,7 +11,6 @@ import { useState } from 'react';
 import data from './data';
 import Header from './Header';
 import Quiz from './Quiz';
-import Quizb from './Quizb';
 import VideoComponent from './VideoComponent';
 
 export default function Main() {
@@ -122,7 +121,7 @@ export default function Main() {
             <button className="next-test2" onClick={() => setChooseTest(1)}>
               Go to HTML/CSS Test
             </button>
-            <Quizb />
+            11111111111
           </div>
         )}
       </div>

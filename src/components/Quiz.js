@@ -1,6 +1,6 @@
-import { useContext } from "react";
-import Question from "./Question";
-import { QuizContext } from "../contexts/quiz";
+import { useContext } from 'react';
+import { QuizContext } from '../contexts/quiz';
+import Question from './Question';
 
 const Quiz = () => {
   const [quizState, dispatch] = useContext(QuizContext);
@@ -12,13 +12,13 @@ const Quiz = () => {
           <div className="results-info">
             <div>You have completed the quiz.</div>
             <div>
-              You've got {quizState.correctAnswersCount} of{" "}
+              You've got {quizState.correctAnswersCount} of{' '}
               {quizState.questions.length}
             </div>
           </div>
           <div
             className="next-button"
-            onClick={() => dispatch({ type: "RESTART" })}
+            onClick={() => dispatch({ type: 'RESTART' })}
           >
             Restart
           </div>
@@ -33,7 +33,7 @@ const Quiz = () => {
           <Question />
           <div
             className="next-button"
-            onClick={() => dispatch({ type: "NEXT_QUESTION" })}
+            onClick={() => dispatch({ type: 'NEXT_QUESTION' })}
           >
             Next question
           </div>
